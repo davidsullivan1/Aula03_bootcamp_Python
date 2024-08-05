@@ -15,7 +15,7 @@ def checkEmail(email):
         print("Invalid Email")
 
 idade = 18; 
-email = '.suporte@.email.com'
+email = 'suporte@email.com'
 
 regex = re.compile(r'^[\w-]+@(?:[a-zA-Z0-9-]+\.)+[a-zA-Z]{2,}$')
 
@@ -29,7 +29,7 @@ if idade < 18:
     print("Usuário tem idade inferior a 18 anos")
 elif idade > 65:
     print("Usuário tem idade maior que 65 anos")
-elif checkEmail(email) == "Invalide Email":
+elif checkEmail(email) == "Invalid Email":
     print("Email informado para o usuário inválido")
 else:
     print("Dados de Usuário Válidos")
